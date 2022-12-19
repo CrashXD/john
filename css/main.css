@@ -21,6 +21,13 @@ body {
 }
 
 /*
+  Сброс плавающих элементов
+*/
+.clearfix {
+    clear: both;
+}
+
+/*
     Шапка
 */
 .header {
@@ -159,10 +166,6 @@ body {
     font-size: 18px;
 }
 
-.clearfix {
-    clear: both;
-}
-
 .posts__date {
     border-right: 1px solid #000;
     padding-right: 32px;
@@ -179,3 +182,7 @@ body {
 .posts__card-text {
     margin-top: 20px;
 }
+
+/*
+  Избранные работы
+*/
