@@ -234,12 +234,16 @@ a.posts__card {
 
 .featured__image {
     width: 246px;
+    aspect-ratio: 41 / 30;
     display: block;
+    border-radius: 6px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 .featured__image img {
-    border-radius: 6px;
-    width: 100%;
+    width: 1px;
 }
 
 .featured__image, .featured__info {
