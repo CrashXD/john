@@ -91,3 +91,73 @@
         margin-bottom: 20px;
     }
 }
+
+/*
+  Посты
+*/
+@media (max-width: 886px) {
+    .posts__date {
+        padding-right: 16px;
+    }
+
+    .posts__tags {
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .posts__card-title {
+        font-size: 22px;
+    }
+
+    .posts__date,
+    .posts__tags {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .posts__card {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 16px
+    }
+
+}
+
+@media (max-width: 576px) {
+    .posts__date {
+        padding-right: 8px;
+    }
+
+    .posts__tags {
+        margin-left: 8px;
+    }
+
+    .posts__card:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .posts__card-info {
+        margin-top: 12px;
+    }
+
+    .posts__card-text {
+        margin-top: 12px;
+    }
+
+    .posts__header {
+        margin-bottom: 24px;
+    }
+
+    .posts__title {
+        font-size: 18px;
+        float: none;
+        text-align: center;
+    }
+
+    .posts__header a {
+        display: none;
+    }
+}
